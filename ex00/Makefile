@@ -9,7 +9,7 @@ BOLD    = \033[1m
 PINK    = \033[38;5;206m
 CYAN    = \033[1;36m
 
-NAME = scalar
+NAME = convert
 
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
