@@ -16,7 +16,7 @@ CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 
 OBJ_DIR = bin
 
-SRCS = main.cpp Base.cpp A.cpp B.cpp C.cpp
+SRCS = main.cpp Base.cpp
 
 OBJS = $(SRCS:%.cpp=$(OBJ_DIR)/%.o)
 
