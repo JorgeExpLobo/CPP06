@@ -16,7 +16,7 @@ CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 
 OBJ_DIR = bin
 
-SRCS = main.cpp Serializer.cpp Data.cpp
+SRCS = main.cpp Serializer.cpp
 
 OBJS = $(SRCS:%.cpp=$(OBJ_DIR)/%.o)
 
